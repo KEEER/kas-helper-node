@@ -1,0 +1,21 @@
+{
+  "name": "@keeer/kas-helper",
+  "version": "0.0.1",
+  "description": "A database and Koa helper for KAS.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kas-helper-node"
+  },
+  "keywords": [
+    "keeer",
+    "kas"
+  ],
+  "files": [ "src" ],
+  "author": "Alan-Liang",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@keeer/kas-client": "^0.0.2"
+  }
+}
