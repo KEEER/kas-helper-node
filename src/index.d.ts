@@ -2,7 +2,7 @@ declare type KASHelperClass =
   (new (options: { base: string, upsert (user: KASUserWithoutServiceToken): Promise<void>, get (token: string): Promise<KASUser | null> }) => KASHelper<KASUserWithoutServiceToken, never>) &
   (new (options: { base: string, token: string, upsert (user: KASUserWithServiceToken): Promise<void>, get (token: string): Promise<KASUserWithKiuid | null> }) => KASHelper<KASUserWithServiceToken, KoaMiddleware>)
 declare const KASHelper: KASHelperClass
-export = { KASHelper }
+export = { KASHelper, KASUser: KASUserWithKiuid }
 
 interface KASUser {
   readonly token: string

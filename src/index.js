@@ -183,4 +183,4 @@ class KASHelper {
   }
 }
 
-module.exports = exports = { KASHelper }
+module.exports = exports = { KASHelper, KASUser }
